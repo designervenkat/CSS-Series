@@ -1,0 +1,20 @@
+/* External CSS */
+
+/* selector {
+  property: value
+} */
+
+/* class selector will always has dot(.) and follow the name */
+.box{
+  background-color: black;
+  color: aqua;
+  height: 200px;
+  width: 200px;
+}
+
+/* id start with the # hashtag */
+#superman{
+  color: rgb(141, 46, 46);
+  background-color: bisque;
+  height: 400px;
+}
