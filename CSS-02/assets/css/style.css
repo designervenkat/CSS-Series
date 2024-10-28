@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 li {
@@ -47,4 +51,41 @@ li {
   font-size: 12px;
   background-color: transparent;
   border: none;
+}
+.categories-block{
+  display: flex;
+  gap:20px;
+  /* padding-top: ;
+  padding-left: ;
+  padding-bottom: ;
+  padding-right: ; */
+    padding: 30px; /* Applies all side with single value */  
+  /* padding: 30px 15px; Top and Bottom  || Left and Right */ 
+  /* padding: 30px 15px 10px 5px; */
+}
+.category img{
+  width: 60px;
+}
+.category h2{
+  font-size: 12px;
+  text-align: center;
+
+}
+.premium-box{
+  text-align: center;
+  border: 1px solid rgb(198, 198, 198);
+  width: 120px;
+  padding: 20px 5px;
+}
+.premium-box img{
+  width: 100px;
+}
+.premium-box span{
+  font-size: 10px;
+  display: block;
+  margin: 5px 0;
+}
+.premium-box h2{
+  font-size: 12px;
+
 }
